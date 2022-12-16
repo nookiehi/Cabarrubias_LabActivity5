@@ -35,7 +35,7 @@ public class LeapYearGUI extends JFrame{
     public static void main(String[] args){
         LeapYearGUI gui = new LeapYearGUI();
         gui.setContentPane(gui.panel1);
-        gui.setSize(200,300);
+        gui.setSize(500,500);
         gui.setTitle("Leap Year Checker");
         gui.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         gui.setVisible(true);
